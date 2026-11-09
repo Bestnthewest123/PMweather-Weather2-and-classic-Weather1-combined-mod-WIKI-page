@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Modern Wiki</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101820;
+    color: #e8f1fa;
+}
+
+header {
+    background: #142b40;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 3px solid #2496dc;
+}
+
+header h1 {
+    font-size: 38px;
+    margin: 0;
+    color: #55baff;
+}
+
+header p {
+    color: #c5d8e8;
+}
+
+nav {
+    background: #1c354b;
+    padding: 14px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #55baff;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.sidebar {
+    width: 240px;
+    padding: 20px;
+    background: #172633;
+    min-height: 600px;
+}
+
+.sidebar h3 {
+    color: #55baff;
+}
+
+.sidebar a {
+    display: block;
+    color: #d5e6f5;
+    text-decoration: none;
+    padding: 9px 0;
+}
+
+.sidebar a:hover {
+    color: #55baff;
+}
+
+main {
+    flex: 1;
+    padding: 30px;
+}
+
+section {
+    background: #192c3b;
+    padding: 22px;
+    margin-bottom: 22px;
+    border-radius: 8px;
+    border-left: 4px solid #2496dc;
+}
+
+h2 {
+    color: #55baff;
+}
+
+.button {
+    display: inline-block;
+    background: #168bd0;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: #0871ad;
+}
+
+footer {
+    background: #142b40;
+    text-align: center;
+    padding: 20px;
+    color: #a9c0d4;
+}
+
+@media(max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+    }
+
+    main {
+        padding: 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>MODERN</h1>
+    <p>Weather. Storms. Tornadoes.</p>
+    <p>Official Modern Mod Wiki</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#weather">Weather</a>
+    <a href="#tornadoes">Tornadoes</a>
+    <a href="#installation">Installation</a>
+    <a href="#versions">Versions</a>
+</nav>
+
+<div class="container">
+
+<aside class="sidebar">
+    <h3>Wiki Navigation</h3>
+
+    <a href="index.html">🏠 Home</a>
+    <a href="#about">About Modern</a>
+    <a href="#weather">🌦️ Weather</a>
+    <a href="#tornadoes">🌪️ Tornadoes</a>
+    <a href="#installation">📥 Installation</a>
+    <a href="#versions">📋 Version History</a>
+    <a href="#credits">👥 Credits</a>
+</aside>
+
+<main>
+
+<section id="about">
+    <h2>Welcome to Modern!</h2>
+
+    <p>
+        Welcome to the official Modern Wiki!
+        Modern is a weather modification project
+        combining features from different Minecraft
+        weather mods.
+    </p>
+
+    <p>
+        Explore this wiki to learn about weather,
+        tornadoes, installation, and development.
+    </p>
+</section>
+
+<section id="weather">
+    <h2>🌦️ Weather Systems</h2>
+
+    <p>
+        Learn about the weather systems included
+        in Modern and their features.
+    </p>
+</section>
+
+<section id="tornadoes">
+    <h2>🌪️ Tornadoes</h2>
+
+    <p>
+        Discover information about tornadoes,
+        their behavior, and their effects on the world.
+    </p>
+</section>
+
+<section id="installation">
+    <h2>📥 Installation Guide</h2>
+
+    <p>
+        Follow the installation instructions to
+        get Modern running in Minecraft.
+    </p>
+
+    <p>
+        See the README.md file in the GitHub
+        repository for the current installation steps.
+    </p>
+</section>
+
+<section id="versions">
+    <h2>📋 Version History</h2>
+
+    <h3>Modern V1.0 Alpha</h3>
+    <p>
+        Initial alpha release.
+    </p>
+    <p>
+        Combines Proto Manly's Weather and
+        Classic Weather 1.
+    </p>
+
+    <h3>Future Versions</h3>
+    <p>
+        More updates and integrations are planned.
+    </p>
+</section>
+
+<section id="credits">
+    <h2>👥 Credits</h2>
+
+    <p>
+        Credits for the original mods, their creators,
+        and other contributors will be listed here.
+    </p>
+</section>
+
+</main>
+</div>
+
+<footer>
+    <p>Modern Wiki | Unofficial documentation website</p>
+</footer>
+
+</body>
+</html>
